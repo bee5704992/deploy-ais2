@@ -50,21 +50,21 @@ const Course = () => {
                         <div> 
                             <div  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <div className="section5-div-item1" style={{ display: 'inline-block', background: '#751BE2', color: '#FFFFFF', textAlign: 'start', width: '45%', maxWidth: '718px' }}>
-                                    <a href="http://www.futureskill.co/ais" target="_blank">
+                                    
                                     <img src={item.imgSrc} />
                                     <div>
                                         <h1 className={`prompt-bold ${item.h1Pic2.length > 0 ? "line-clamp-title-1" : "line-clamp-title-2"}`} >{item.h1Pic}</h1>
                                         <h1 className={`poppins-regular`} >{item.h1Pic2}</h1>
                                         <p className="poppins-regular line-clamp" >{item.pPic}</p>
                                     </div>
-                                    </a>
+                                    
                                 </div>
                                 <div className="section5-div-item2" style={{ display: 'inline-block', width: '45%', textAlign: 'start' }}>
                                     <h1 className="prompt-semi-bold" style={{ color: '#0D0D0D' }}>{item.h1}</h1>
                                     <div className="poppins-regular" style={{ color: '#393939', display: 'flex' }}><div><img src="pic/Check.png" /></div><p style={{ margin: '0' }}>{item.p1}</p></div>
                                     <div className="poppins-regular" style={{ color: '#393939', display: 'flex' }}><div><img src="pic/Check.png" /></div><p style={{ margin: '0' }}>{item.p2}</p></div>
                                     <div className="poppins-regular" style={{ color: '#393939', display: 'flex' }}><div><img src="pic/Check.png" /></div><p style={{ margin: '0' }}>{item.p3}</p></div>
-                                    <button className="roboto-regular section5-button" ><a href="http://www.futureskill.co/ais" target="_blank">ดูรายละเอียด</a></button>
+                                    
                                 </div>
                             </div>
                         </div>

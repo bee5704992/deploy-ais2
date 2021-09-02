@@ -160,9 +160,14 @@ const Ais_frame_30 = () => {
                 <ul className="poppins-regular condition-ul" style={{ textAlign: 'left', color: '#242424' }}>
                     <li>*หากซื้อแพ็กเกจรายเดือน <b>" เรียนทุกคอร์ส เดือนละ 5 ชั่วโมง หรือ 12 ชั่วโมง "</b> ทุกการเข้าดูครั้งแรกหรือดู rerun ระบบจะหักจำนวนชั่วโมงออกไป</li>
                     <li>**หากซื้อแพ็กเกจรายเดือน <b>" เรียนทุกคอร์สไม่จำกัด "</b> สามารถดูได้ทุกคอร์สเรียนแบบไม่จำกัดชั่วโมงตลอด 1 เดือน</li>
-                </ul>
+                </ul>                                    
             </div>
-     
+
+            {/*คอร์สเรียนยอดนิยม FutureSkill*/}
+            <div className="section5" style={{textAlign:'center'}}>
+                <h1 className="poppins-bold" style={{color:'#000000'}}>คอร์สเรียนยอดนิยม <span style={{color:'#242424'}}>Future</span><span className="poppins-regular" style={{color:'#242424'}}>Skill</span></h1>
+                <Course />
+            </div>
         </div>
     )
 }
